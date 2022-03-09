@@ -1,0 +1,35 @@
+<main>
+  <header>
+    <app-slide></app-slide>
+  </header>
+
+  <section id="cards">
+    <app-cards id="let"
+    titulo='Basic'
+    subtitulo="19.99"
+    space="500 GB Storage"
+    users="2 Users Allowed"
+    send="Send up to 3 GB"
+    (btnClickEvent)="openSnackBar()"
+    ></app-cards>
+
+    <app-cards
+    classe="center"
+    titulo='Professional'
+    subtitulo="24.99"
+    space="1 TB Storage"
+    users="5 Users Allowed"
+    send="Send up to 10 GB"
+    (btnClickEvent)="openSnackBar()"
+    ></app-cards>
+
+    <app-cards
+    titulo='Master'
+    subtitulo="39.99"
+    space="2 TB Storage"
+    users="10 Users Allowed"
+    send="Send up to 20 GB"
+    (btnClickEvent)="openSnackBar()"
+    ></app-cards>
+  </section>
+</main>

@@ -1,0 +1,35 @@
+body, main{  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #F7F7FF;
+
+
+}
+
+app-cards{
+  background-color: #F7F7FF;
+
+}
+
+#cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7FF;
+
+}
+
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 40px;
+  background-color: #F7F7FF;
+
+}
+
+
+
